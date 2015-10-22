@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'timeseditmedium';
+    src: url(timesedit-webfont.eot);
+    src: url(timesedit-webfont.eot?#iefix) format("embedded-opentype"),url(timesedit-webfont.woff) format("woff"),url(timesedit-webfont.ttf) format("truetype"),url(timesedit-webfont.svg#timeseditmedium) format("svg");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'UniversRoman';
+    src: url(universltstd.eot);
+    src: url(universltstd.eot) format("embedded-opentype"),url(universltstd.woff) format("woff"),url(universltstd.ttf) format("truetype"),url(universltstd.svg#UniversLTStd55Roman) format("svg");
+}
+
+#video_background {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1000;
+    overflow: hidden;
+}
+
+.text-item {
+    max-width: 600px;
+    height: 240px;
+}
+
+.container-fluid {
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+body {
+    padding-top: 0;
+    height: 100%;
+}
+
+#bgndVideo {
+    z-index: -9999;
+}
+
+.signoff {
+    position: absolute;
+    width: 50vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%,-50%);
+}
