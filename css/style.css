@@ -41,6 +41,7 @@ body {
 
 #bgndVideo {
     z-index: -9999;
+    filter: invert(100%);
 }
 
 .signoff {
