@@ -32,11 +32,7 @@ body {
     background:url("../img/portrait.gif");
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-#bgndVideo {
-    z-index: -9999;
-    filter: invert(100%);
+    background-position: center;
 }
 
 .signoff {
